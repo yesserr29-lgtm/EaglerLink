@@ -26,7 +26,7 @@ const WebSocket = require('ws');
 const PORT = process.env.PORT || 10000;
 
 // Your EaglerHost server WSS URL:
-const UPSTREAM_WSS = process.env.UPSTREAM_WSS || 'wss://YOUR-SERVER.eagler.host/';
+const UPSTREAM_WSS = process.env.UPSTREAM_WSS || 'wss://steak.eagler.host/';
 
 // Static site folder:
 const PUBLIC_DIR = path.join(__dirname, 'public');
